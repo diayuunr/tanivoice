@@ -1,7 +1,7 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 export default defineConfig({
+  base: "/tanivoice/",  // Sesuaikan dengan nama repo
   plugins: [react()],
-  base: '/tanivoice/', // Tambahkan ini sesuai dengan nama repository-mu
-})
+});
