@@ -1,0 +1,188 @@
+.wrapper-nav {
+  width: 100%;
+    background-color: #5D8736;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding: 1px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.container-nav {
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: Cambria;
+    color: #F4FFC3;
+    text-decoration: none;
+  }
+
+.navbar-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+.btn-signin {
+    background: #6f8835;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    color: #F4FFC3;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+
+.btn-signin:hover {
+    background: #A9C46C;
+    color: #F4FFC3;
+    text-decoration: none;
+  }
+
+.btn-signup {
+    background: #53632a;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    color: #F4FFC3;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+.btn-signup:hover {
+    background: #8db13a;
+    color: #F4FFC3;
+    text-decoration: none;
+  }
+
+  .menu {
+    float: right;
+    display: flex;
+  }
+
+  .menu li a{
+    color: #F4FFC3;
+  }
+
+  #menu-toggle {
+    display: none;
+  }
+
+  .menu-icon {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #F4FFC3;
+    background: none;
+    border: none;
+  }
+
+  .voice{
+    color: #aed74d;
+  }
+  
+  nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+    z-index: 1;
+    border-bottom: 1px solid #F4FFC3;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    color: #809D3C;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+    color: #A9C46C;
+  }
+  
+  @media screen and (max-width: 991.98px) {
+    .container-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding: 0 20px;
+    }
+  
+    .menu {
+      display: none;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      width: 100%;
+      background-color: #5D8736;
+      flex-direction: column;
+      text-align: center;
+      padding: 10px 0;
+    }
+  
+    .menu ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .menu ul li {
+      width: 100%;
+    }
+  
+    .menu ul li a {
+      display: block;
+      padding: 10px 15px;
+    }
+  
+    .menu-icon {
+      display: block;
+      cursor: pointer;
+      font-size: 30px;
+      color: white;
+      position: absolute;
+      right: 5rem;
+      top: 1rem;
+    }
+
+    #menu-toggle:checked + .menu {
+      display: flex;
+  
+    }
+    .menu.open { 
+      display: block;
+    }
+   
+  }
+  
+
+  

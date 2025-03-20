@@ -1,0 +1,65 @@
+
+.hot-container h1 {
+    font-size: 2.3rem;
+    color: #5D8736;
+    font-family: Cambria;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .hot-container p{
+    font-size: 1.2rem;
+    color: #436227;
+    font-family: Cambria;
+    margin-bottom: 2rem;
+    font-style: italic;
+    text-align: center;
+  }
+.call-container {
+    width: 300px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .call-screen {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+  }
+  
+  .call-status {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .call-number {
+    font-size: 16px;
+  }
+  
+  .end-call-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .end-call-button:hover {
+    background-color: darkred;
+  }

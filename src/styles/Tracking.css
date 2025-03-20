@@ -1,0 +1,117 @@
+
+.laba-container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+
+  .laba-container h1{
+    font-size: 2.3rem;
+  color: #5D8736;
+  font-family: Cambria;
+  margin-top: 2rem;
+  margin-bottom: 20px;
+  }
+  
+  .laba-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .laba-table th,
+  .laba-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .laba-table th {
+    background-color: #5D8736;
+    color: white;
+  }
+  
+  .total-laba {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #5D8736;
+  }
+  
+  .form-container {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 10px;
+  }
+  
+  .form-container input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-container button {
+    background: #5D8736;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .form-container button:hover {
+    background: #4c6e2a;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .laba-container {
+      width: 100%;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      justify-content: center;
+    }
+  
+    .laba-table {
+      width: 90%;
+      max-width: 600px;
+      margin: 0 auto; 
+    }
+  
+    .laba-table th,
+    .laba-table td {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .form-container {
+      width: 90%;
+      max-width: 500px;
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .form-container input {
+      width: 100%;
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .form-container button {
+      width: 100%;
+      font-size: 14px;
+    }
+    body .laba-table {
+        margin: 0;
+        padding: 0;
+      }
+  }
+  
+  

@@ -1,0 +1,74 @@
+.dashboard-container {
+    text-align: center;
+    margin: 3rem 0;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    justify-items: center;
+  }
+  
+.petani-title{
+    margin-bottom: 0rem;
+    font-family: Cambria;
+    color: #5D8736;
+}
+.petani-title span{
+    color: #5D8736;
+}
+
+.petani-desc{
+    margin-bottom: 3rem;
+    font-family: Cambria;
+    font-size: larger;
+    font-style: italic;
+}
+  .feature-card {
+    width: 8rem;
+    max-height: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f5f5f5;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: #436227;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    font-family: monospace;
+    font-size: 12px;
+  }
+  
+  .feature-card:hover {
+    transform: scale(1.05);
+    background: #e7f0c0;
+  }
+  
+  .feature-icon {
+    width: 100%; 
+    height: auto; 
+    max-width: 7rem; 
+    object-fit: contain;
+    margin-bottom: 0.8rem;
+  }
+
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+    .feature-card {
+      width: 6rem;
+      padding: 1.5rem;
+      font-size: 10px;
+    }
+    .feature-icon {
+      max-width: 5rem;
+    }
+    .dashboard-container {
+      margin: 2rem 0;
+    }
+  }
